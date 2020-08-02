@@ -1,0 +1,97 @@
+/* Общий стиль фона страницы*/
+@font-face{
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald-VariableFont_wght.woff2') format('woff2');
+    src: url('../fonts/src/Oswald-VariableFont_wght.ttf') format('truetype');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+
+/* Общий стиль фона страницы*/
+body{
+    font-family: 'Oswald', sans-serif !important;
+    background: #e8e8f7 !important;
+    /* background: rgb(154,198,172);
+    background: linear-gradient(90deg, rgba(154,198,172,1) 49%, rgba(58,173,180,1) 100%) !important; */
+    text-decoration:none;
+    }
+#app{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: 0;
+    width: 100vw;
+    }
+.card {
+    background-color: rgba(255,255,255, 0.3) !important;
+    min-width: 22rem !important;
+}
+.card-border {
+    border-radius: 1rem !important;
+    border-color: rgba(154,198,172,1) !important;
+}
+.card-header {
+    border-top-left-radius: 1rem !important;
+    border-top-right-radius: 1rem !important;
+    opacity: 1;
+    font-size: 1.3rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    color: #ffff;
+    background: rgba(10, 18, 16, 0.9) !important;
+}
+.card-body {
+    opacity: 1;
+}
+.card-body-text {
+    font-size: 1.2rem;
+    font-family: 'Oswald', sans-serif;
+    color: #0a0a0a;
+}
+.card-body .close{
+    font-size: 2rem;
+    font-family: 'Oswald', sans-serif;
+    color: #ff0000;
+}
+.list-group {
+    opacity: 95%;
+}
+.alert-danger, .list-group-item-danger {
+    box-shadow: 0 0 20px rgba(225, 83, 97, 0.5);
+}
+.text-right {
+    float: right;
+}
+.text-left {
+    float: left;
+}
+.card-header .alert {
+    margin: -1rem;
+}
+.card-deck {
+    width: 100%;
+    margin-top: 1%;
+}
+.card-section{
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    -ms-scrollbar-base-color: rgba(255,255,255,0);
+}
+.card-section::-webkit-scrollbar {
+    display: none;
+}
+.card-section--content{
+    width: 100%;
+}
+.btn-section button{
+    margin-left: 1rem;
+}
+
+.card .right-box{
+    display: inline-block;
+}
+.card .right-box .close{
+    padding-left: 10px;
+}
+
